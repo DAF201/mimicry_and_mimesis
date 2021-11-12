@@ -7,11 +7,9 @@ import datetime
 try:
     Tk().withdraw()
     filename = askopenfilename()
-    file_name, file_extension = os.path.splitext(filename)
-    size = open(filename)
-    size.seek(0, os.SEEK_END)
-    print("file size: ", size.tell(), "bytes")
-    size.close()
+    with open(filename,'r')as file:
+        file.seek(0, os.SEEK_END)
+        print("file size: ", file.tell(), "bytes")
     start_time = time.time()
     data = ''
     print('reading file')
