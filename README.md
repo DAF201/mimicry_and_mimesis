@@ -25,3 +25,5 @@ Example part:
 <img src='https://github.com/DAF201/mimicry_and_mimesis/blob/main/Screenshot%20(519).png'>
 
 <img src='https://github.com/DAF201/mimicry_and_mimesis/blob/main/Screenshot%20(520).png'>
+
+<img src='https://github.com/DAF201/mimicry_and_mimesis/blob/main/Screenshot%20(521).png'>
